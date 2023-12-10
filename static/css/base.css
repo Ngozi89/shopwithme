@@ -10,7 +10,7 @@ body {
     font-family: 'Lato';
 }
 
-/* from Bulma */
+/* Font awesome icon from Bulma to ensure that font awesome stay perfectly centred and have a consistent size */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -22,7 +22,7 @@ body {
 .logo-font {
     text-transform: uppercase;
 }
-
+/* Make logo only takes up as much space as the text requires */
 .main-logo-link {
     width: fit-content;
 }
