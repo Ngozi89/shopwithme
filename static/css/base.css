@@ -27,10 +27,14 @@ body {
     width: fit-content;
 }
 
+#collection {
+    font-size: 40px;
+}
+
 .shop-now-button {
     background: black;
     color: white;
-    min-width: 260px;
+    min-width: 200px;
 }
 
 .btn-black {
@@ -54,6 +58,10 @@ body {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.bg-black {
+    background: #000 !important;
 }
 
 /* -------------------------------- Media Queries */
